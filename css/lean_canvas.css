@@ -1,0 +1,70 @@
+html, body, .h-1 {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.h-1-2 {
+  height: 50%;
+}
+
+.h-2-3 {
+  height: 66.66666666666666%;
+}
+
+.h-1-3 {
+  height: 33.33333333333333%;
+}
+
+.area {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #aaa;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  margin: 0px;
+  padding: 5px;
+  background-color: lightgray;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+li {
+  background: #fefabc;
+  padding: 15px;
+  font-size: 15px;
+  color: #000;
+  width: 200px;
+  margin: 0px 5px 5px;
+  float: left;
+  min-height: 2.2em;
+          box-shadow: 0px 4px 6px #333;
+     -moz-box-shadow: 0px 4px 6px #333;
+  -webkit-box-shadow: 0px 4px 6px #333;
+  -webkit-print-color-adjust: exact;
+  width: 80%;
+}
+
+.pure-u-1-2 li {
+  width: 40%;
+}
+
+@media print {
+  li {
+    box-shadow: none;
+    max-width: 80%;
+  }
+}
