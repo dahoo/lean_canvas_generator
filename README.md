@@ -3,7 +3,7 @@ Generate an HTML Lean Canvas from versionable Markdown.
 The CSS is based on https://github.com/theInspiredOnes/bmc-generator.
 
 ## Usage
-Write your canvas using the template provided in `canvas.md`.
+Write your canvas using the template provided in `canvas.md`. Each list item becomes a post-it.
 
 Install the gems:
 ```
